@@ -2,7 +2,7 @@ module LowRankOps
 
     using LinearAlgebra
     import Base: *
-    import LinearAlebgra: diag
+    import LinearAlgebra: diag
 
     export LowRankMultMat, LowRankDiagMat
 
