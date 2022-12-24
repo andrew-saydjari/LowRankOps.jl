@@ -1,0 +1,13 @@
+name = "LowRankOps"
+uuid = "0ea32739-31af-43e6-82ee-ebe6dcf00a6f"
+authors = ["andrew-saydjari <saydjari@g.harvard.edu> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
