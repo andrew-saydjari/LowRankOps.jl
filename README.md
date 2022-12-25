@@ -71,7 +71,7 @@ end
 which define the precomputation and fast diagonal map. We can construct 
 
 ```julia
-CMat = LowRankDiagMat([Ctotinv,Vi,Vj],Cij_precomp_mult,Cij_fxn_mult);
+CMat = LowRankDiagMat([Ctotinv,Vi,Vj],Cij_precomp_diag,Cij_diag_map);
 ```
 
 Notice that we have used `Ctotinv` from above, which implements fast matrix multiplication via the `LowRankMultMat` type, as part of the matrix listed passed in creating the `LowRankMultMat` object. Then, the diagonal cam be obtained quickly via

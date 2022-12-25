@@ -24,8 +24,8 @@
     end
     
     M = Vi*((Vi'*(Ctotinv*Vj))*Vj')
-    DMat = LowRankDiagMat([Ctotinv,Vi,Vj],Cij_precomp_mult,Cij_fxn_mult);
+    DMat = LowRankDiagMat([Ctotinv,Vi,Vj],Cij_precomp_diag,Cij_diag_map);
     
-    @test DMat() == diag(M)
-    @test diag(DMat) == diag(M)
+    @test DMat() ≈ diag(M)
+    @test diag(DMat) ≈ diag(M)
 end
