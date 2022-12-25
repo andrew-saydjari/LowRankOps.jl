@@ -62,6 +62,7 @@ end
 
 function Cij_diag_map(matList,precompList)
     Vi = matList[2]
+    Vj = matList[3]
     arg1 = precompList[1]
     return dropdims(sum(Vi'.*(arg1*Vj'),dims=1),dims=1)
 end
