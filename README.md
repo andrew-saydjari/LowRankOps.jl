@@ -18,7 +18,7 @@ Pkg.add(url="https://github.com/andrew-saydjari/CloudCovErr.jl")
 
 ### Multiplication
 
-A classic example of low rank factorization is the Woodbury form where $M = A + VV^T$. Here we show how to leverage the type in this package to do fast multiplication of $M^{-1}$ times a vector. When A is diagonal, the inverse of A is simple.
+A classic example of low rank factorization is the Woodbury form where $M = A + VV^T$. Here we show how to leverage the type in this package to do fast multiplication of $M^{-1}$ times a vector.
 
 We define two functions, one that defines a set of factors (matrices) to precompute upon object creation and one that defines the multiplication, using the precomputed factors and ordering the operations for speed.
 
