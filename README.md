@@ -23,7 +23,7 @@ We define two functions, one that defines a set of factors (matrices) to precomp
 function wood_precomp_mult(matList)
     Ainv = matList[1]
     V = matList[2]
-    return [(Ainv*V)*inv(I+V'*(Ainv*V))] #change to cholesky soon
+    return [(Ainv*V)*inv(I+V'*(Ainv*V))]
 end
 
 function wood_fxn_mult(matList,precompList,x)
