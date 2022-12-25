@@ -1,6 +1,6 @@
 using LowRankOps
-using Test
+using LinearAlgebra, Test
+using Random: seed!
 
-@testset "LowRankOps.jl" begin
-    # Write your tests here.
-end
+include("lowRankMultMat.jl")
+include("lowRankDiagMat.jl")
