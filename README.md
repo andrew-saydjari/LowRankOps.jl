@@ -84,7 +84,7 @@ y = diag(CMat)
 ```
 
 <!-- URLS -->
-[action-img]: https://github.com/andrew-saydjari/LowRankOps.jl/workflows/Unit%20test/badge.svg
+[action-img]: https://github.com/andrew-saydjari/LowRankOps.jl/workflows/CI/badge.svg
 [action-url]: https://github.com/andrew-saydjari/LowRankOps.jl/actions
 
 [codecov-img]: https://codecov.io/github/andrew-saydjari/LowRankOps.jl/coverage.svg?branch=main
