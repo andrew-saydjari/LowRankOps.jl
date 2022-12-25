@@ -1,5 +1,8 @@
 # LowRankOps
 
+[![][action-img]][action-url]
+[![][codecov-img]][codecov-url]
+
 Type/method defintions for speeding up matrix computations for matrices built from low rank components.
 
 ## Installation
@@ -79,3 +82,10 @@ Notice that we have used `Ctotinv` from above, which implements fast matrix mult
 ```julia
 y = diag(CMat)
 ```
+
+<!-- URLS -->
+[action-img]: https://github.com/andrew-saydjari/LowRankOps.jl/workflows/Unit%20test/badge.svg
+[action-url]: https://github.com/andrew-saydjari/LowRankOps.jl/actions
+
+[codecov-img]: https://codecov.io/github/andrew-saydjari/LowRankOps.jl/coverage.svg?branch=main
+[codecov-url]: https://codecov.io/github/andrew-saydjari/LowRankOps.jl?branch=main
