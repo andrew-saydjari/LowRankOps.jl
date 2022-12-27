@@ -11,7 +11,7 @@ Currently, installation is directly from the GitHub
 
 ```julia
 import Pkg
-Pkg.add(url="https://github.com/andrew-saydjari/CloudCovErr.jl")
+Pkg.add(url="https://github.com/andrew-saydjari/LowRankOps.jl")
 ```
 
 ## Examples
