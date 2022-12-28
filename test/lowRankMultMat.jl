@@ -9,9 +9,10 @@
     x = randn(n_big)
     
     function wood_precomp_mult(matList)
-    Ainv = matList[1]
-    V = matList[2]
-        return [(Ainv*V)*inv(I+V'*(Ainv*V))]
+        Ainv = matList[1]
+        V = matList[2]
+        AinvV = Ainv*V
+        return [(AinvV)*inv(I+V'*(AinvV))]
     end
 
     function wood_fxn_mult(matList,precompList,x)
