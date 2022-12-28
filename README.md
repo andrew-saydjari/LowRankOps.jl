@@ -83,6 +83,8 @@ Notice that we have used `Ctotinv` from above, which implements fast matrix mult
 y = diag(CMat)
 ```
 
+<img width="0" src="https://visitor-badge.glitch.me/badge?page_id=andrew-saydjari.LowRankOps.jl" />
+
 <!-- URLS -->
 [action-img]: https://github.com/andrew-saydjari/LowRankOps.jl/workflows/CI/badge.svg
 [action-url]: https://github.com/andrew-saydjari/LowRankOps.jl/actions
