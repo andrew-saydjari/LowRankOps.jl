@@ -1,7 +1,7 @@
 name = "LowRankOps"
 uuid = "0ea32739-31af-43e6-82ee-ebe6dcf00a6f"
 authors = ["andrew-saydjari <saydjari@g.harvard.edu> and contributors"]
-version = "0.1.0"
+version = "0.1.1"
 
 [deps]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
