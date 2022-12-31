@@ -1,3 +1,13 @@
+"""
+This is a `LowRankMultMat` object.
+It can be constructed from a set of matrix factors and a multiplication function.
+Implemented methods include `*`.
+
+# Fields
+- matList: list of (low-rank) matrix factors that underlie the matrix
+- precompList: list of precomputed matrix products
+- multFunc: function defining fast matrix multiplication
+"""
 struct LowRankMultMat{T,pT,F<:Function}
     matList::T
     precompList::pT
